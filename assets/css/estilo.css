@@ -1,0 +1,16 @@
+#botonicono {
+    font: 700 1em Tahoma, Arial, Verdana, sans-serif;
+    color: #fff;
+    background-color: #59B0E5;
+    border: 1px solid #0074a5;
+    border-top: 1px solid #004370;
+    border-left: 1px solid #004370;
+    cursor: pointer;
+}
+
+.circular{
+    border-top-left-radius: 50% 50%;
+    border-top-right-radius: 50% 50%;
+    border-bottom-right-radius: 50% 50%;
+    border-bottom-left-radius: 50% 50%;
+}
