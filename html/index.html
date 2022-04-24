@@ -24,6 +24,11 @@
 
   <link rel="stylesheet" href="text.css" href="../assets/css/estilo.css">
 
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+
 </head>
 
 <body>
@@ -45,28 +50,27 @@
         <ul class="navbar-nav ml-auto">
 
           <li class="nav-item">
-            <a href="https://www.facebook.com/profile.php?id=100009407626005" class="nav-link" data-animate="scrolling">
-              <img src="../assets/img/logotipo-circular-de-facebook.png" alt="Facebook" width="30"
-                height="30" class="d-inline-block align-text-top">
-            </a>
-          </li>
+            <!-- Facebook -->
+            <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/profile.php?id=100009407626005" role="button"><i class="fab fa-facebook-f"></i></a>
+            </li>
+         
           <li class="nav-item">
-            <a href="https://www.instagram.com/mica.galian/" class="nav-link" data-animate="scrolling">
-              <img src="../assets/img/instagram.png" alt="Instagram" width="30" height="30"
-                class="d-inline-block align-text-top">
-            </a>
-          </li>
+            <!-- Instagram -->
+            <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/mica.galian/" role="button"><i class="fab fa-instagram"></i></a>
+            </li>
+          
           <li class="nav-item">
-            <a href="https://www.linkedin.com/in/anah%C3%AD-micaela-galian-5b5548220" class="nav-link"
-              data-animate="scrolling">
-              <img src="../assets/img/linkedin.png" alt="Linkedin" width="30" height="30"
-                class="d-inline-block align-text-top">
-            </a>
-          </li>
+            <!-- Linkedin -->
+            <a class="btn btn-outline-light btn-floating m-1"  href="https://www.linkedin.com/in/anah%C3%AD-micaela-galian-5b5548220" role="button"><i class="fab fa-linkedin-in"></i></a>
+            </li>
+          
           <li class="nav-item">
-            <a href="#contact" class="nav-link m-0 " data-animate="scrolling">
-              <img src="../assets/img/correo-electronico.png" alt="Contacto" width="30" height="30"
-                class="d-inline-block align-text-center align-content-lg-center">
+            <!-- Github -->
+            <a class="btn btn-outline-light btn-floating m-1" href="https://github.com/mica1470" role="button"><i class="fab fa-github"></i></a>
+         </li>
+            
+          <li class="nav-item offset-9 align-center">
+            <a href="#contact" class="nav-link m-1 h5" data-animate="scrolling">
               Contactarme
             </a>
           </li>
@@ -260,85 +264,99 @@
   <!--PROYECTOS -->
   <br>
   <hr>
-  <div class="vg-page page-portfolio" id="portfolio">
     <div class="container">
       <h1 class="text-center fw-normal wow fadeInUp">Proyectos</h1>
-      <div class="filterable-button py-3 wow fadeInUp" data-toggle="selected">
-        <button class="btn btn-theme-outline selected" data-filter="*">All</button>
-        <button class="btn btn-theme-outline" data-filter=".apps">Apps</button>
-        <button class="btn btn-theme-outline" data-filter=".template">Template</button>
-        <button class="btn btn-theme-outline" data-filter=".ios">IOS</button>
-        <button class="btn btn-theme-outline" data-filter=".ui-ux">UI/UX</button>
-        <button class="btn btn-theme-outline" data-filter=".graphic">Graphic</button>
-        <button class="btn btn-theme-outline" data-filter=".wireframes">Wireframes</button>
-      </div>
-
-      <div class="gridder my-3">
-        <div class="grid-item apps wow zoomIn">
-          <div class="img-place" data-src="../assets/img/work/work-1.jpg" data-fancybox
-            data-caption="<h5 class='fg-theme'>Mobile Travel App</h5> <p>Travel, Discovery</p>">
-            <img src="../assets/img/work/work-1.jpg" alt="" width="50%">
-            <div class="img-caption">
-              <h5 class="fg-theme">Mobile Travel App</h5>
-              <p>Travel, Discovery</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="grid-item graphic ui-ux wireframes wow zoomIn">
+        <div class="grid-item">
           <div class="img-place" data-src="../assets/img/work/work-6.jpg" data-fancybox
             data-caption="<h5 class='fg-theme'>Game Streaming</h5> <p>Games, Streaming</p>">
             <img src="../assets/img/work/work-6.jpg" alt="" width="50%">
             <div class="img-caption">
               <h5 class="fg-theme">Game Streaming</h5>
-              <p>Games, Streaming</p>
             </div>
           </div>
         </div>
-      </div>
-      <!-- FIN PROYECTOS -->
+    </div>
+  <!-- FIN PROYECTOS -->
 
 
-      <!-- Contacto -->
-      <div class="container-fluid">
-        <div class="text-center wow fadeInUp">
-          <div class="badge badge-subhead">Contáctame</div>
-        </div>
-        <h1 class="text-center fw-normal wow fadeInUp">Get in touch</h1>
-        <div class="row py-5">
-          <div class="col-lg-5">
-            <form class="vg-contact-form">
-              <div class="form-row">
-                <div class="col-12 mt-3 wow fadeInUp">
-                  <input class="form-control" type="text" name="Name" placeholder="Your Name">
+  <!-- Contacto -->
+        <br><br> 
+      <div class="container-fluid"><hr>
+        <h1 id= "contact" class= "text-center fw-normal wow fadeInUp">Contáctame</h1>
+        <div class="row ">
+            
+          <form>
+              <div class="form-row col-12">
+                <div class="form-group col-md-5 offset-2" required>
+                  <label>Nombre/s</label>
+                  <input type="text" class="form-control">
                 </div>
-                <div class="col-6 mt-3 wow fadeInUp">
-                  <input class="form-control" type="text" name="Email" placeholder="Email Address">
+                <div class="form-group col-md-3" required>
+                  <label>Apellido/s</label>
+                  <input type="text" class="form-control">
                 </div>
-                <div class="col-6 mt-3 wow fadeInUp">
-                  <input class="form-control" type="text" name="Subject" placeholder="Subject">
-                </div>
-                <div class="col-12 mt-3 wow fadeInUp">
-                  <textarea class="form-control" name="Message" rows="6" placeholder="Enter message here.."></textarea>
-                </div>
-                <button type="submit" class="btn btn-theme mt-3 wow fadeInUp ml-1">Send Message</button>
               </div>
+            
+              <div class="form-group col-md-8 offset-2 ">
+                <label for="email"></labelfor>Correo electrónico</label required>
+                  <div class="input-group mb-2">
+                  <div class="input-group-prepend">
+                    <div class="input-group-text">@</div>
+                  </div>
+                    <input class="form-control" type="email" class="form-control" placeholder="you@example.com">                </div>
+              </div>
+        
+              <div class="col-8 offset-2 mt-3 wow fadeInUp">
+                <label>Mensaje de texto</label>
+                <textarea class="form-control" name="Message" rows="6" placeholder="Ingrese un mensaje..."></textarea>
+              <hr></div>
+            <button class="w-50 btn btn-outline-dark btn-lg offset-3" type="submit"> Enviar datos </button>
+
             </form>
-          </div>
-        </div>
+          </div> 
       </div>
 
       <!-- Footer -->
-      <footer>
-        <div class="container">
-          <div class="row">
-            <div class="col-12">
-              <p class="text-center mb-0 mt-4">Copyright &copy;2020. All right reserved </p>
-            </div>
-          </div>
-        </div>
-      </footer>
+      <br><br>
+    <footer class="bg-dark text-center text-white">
+      <!-- Grid container -->
+      <div class="container p-4 pb-0">
+        <!-- Section: Social media -->
+        <section class="mb-4">
+          <!-- Facebook -->
+          <a class="btn btn-primary btn-floating m-1" style="background-color: #3b5998;" href="#!" role="button"><i
+              class="fab fa-facebook-f"></i></a>
+    
+          <!-- Twitter -->
+          <a class="btn btn-primary btn-floating m-1" style="background-color: #55acee;" href="#!" role="button"><i
+              class="fab fa-twitter"></i></a>
+    
+          <!-- Google -->
+          <a class="btn btn-primary btn-floating m-1" style="background-color: #dd4b39;" href="#!" role="button"><i
+              class="fab fa-google"></i></a>
+    
+          <!-- Instagram -->
+          <a class="btn btn-primary btn-floating m-1" style="background-color: #ac2bac;" href="#!" role="button"><i
+              class="fab fa-instagram"></i></a>
+    
+          <!-- Linkedin -->
+          <a class="btn btn-primary btn-floating m-1" style="background-color: #0082ca;" href="#!" role="button"><i
+              class="fab fa-linkedin-in"></i></a>
+          <!-- Github -->
+          <a class="btn btn-primary btn-floating m-1" style="background-color: #333333;" href="#!" role="button"><i
+              class="fab fa-github"></i></a>
+        </section>
+        <!-- Section: Social media -->
+      </div>
+      <!-- Grid container -->
 
+
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        © 2022 Copyright &copy; Todos los derechos reservados.
+      </div>
+      <!-- Copyright -->
+    </footer>
 
       <script src="https://wowjs.uk/dist/wow.min.js"></script>
       <script>
